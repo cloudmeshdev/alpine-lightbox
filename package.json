@@ -1,6 +1,6 @@
 {
-  "name": "@edsardio/alpine-lightbox",
-  "version": "1.0.7",
+  "name": "@cloudmesh.dev/alpine-lightbox",
+  "version": "1.0.0",
   "description": "A dynamic lightbox using AlpineJS and TailwindCSS",
   "main": "dist/module.cjs.js",
   "module": "dist/module.esm.js",
@@ -15,16 +15,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Edsardio/alpine-lightbox.git"
+    "url": "git+https://github.com/cloudmeshdev/alpine-lightbox.git"
   },
   "keywords": [
     "AlpineJS",
     "lightbox",
     "TailwindCSS"
   ],
-  "author": "Edsardio",
+  "author": "cloudmeshdev",
   "bugs": {
-    "url": "https://github.com/Edsardio/alpine-lightbox/issues"
+    "url": "https://github.com/cloudmeshdev/alpine-lightbox/issues"
   },
-  "homepage": "https://github.com/Edsardio/alpine-lightbox#readme"
+  "homepage": "https://github.com/cloudmeshdev/alpine-lightbox#readme",
+  "dependencies": {
+    "duplexer": "^0.1.1"
+  },
+  "license": "ISC"
 }

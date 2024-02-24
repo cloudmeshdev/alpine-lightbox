@@ -13,7 +13,7 @@ This plugin adds a new `x-lightbox` to Alpine.
 
 ### NPM
 ```bash
-npm install @edsardio/alpine-lightbox
+npm install @cloudmesh.dev/alpine-lightbox
 ```
 
 ### JS
@@ -21,7 +21,7 @@ Register your `x-lightbox` directive to Alpine.
 
 ```js
 import Alpine from "alpinejs";
-import Lightbox from "@edsardio/alpine-lightbox";
+import Lightbox from "@cloudmesh.dev/alpine-lightbox";
 
 Alpine.plugin(Lightbox);
 
